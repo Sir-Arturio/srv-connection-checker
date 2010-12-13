@@ -12,7 +12,7 @@ prev_status=$(head -1 $status_file >&1)
 
 
 ### Action ###
-output=$(wget --timeout=5 --spider http://192.168.0.253 2>&1)
+output=$(wget --timeout=5 --spider http://www.google.com 2>&1)
 if [ $? -eq 0 ]
 then
 	echo "Connection up."
